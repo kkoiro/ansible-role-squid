@@ -7,7 +7,7 @@
 
 - name: setup the squid config
   copy:
-    src: "{{ squid_conf_src/path }}"
+    src: "{{ squid_conf_src_path }}"
     dest: /etc/squid/squid.conf
     owner: root
     group: root
